@@ -1,40 +1,153 @@
--- my-ds.page: Welcome to doc-site
+-- import: sonali9737/assets
+
+-- import: ayushsoni1010.github.io/ui-packages/header as navbar
+-- import: ayushsoni1010.github.io/ui-packages/base-layout as layout
+-- import: ayushsoni1010.github.io/ui-packages/social-buttons as social
+-- import: ayushsoni1010.github.io/ui-packages/base-text as text
+-- import: ayushsoni1010.github.io/ui-packages/footer as footer
+-- import: ayushsoni1010.github.io/ui-packages/hero-toast as github-toast
+-- import: ayushsoni1010.github.io/ui-packages/button as button
+
+-- layout.base-layout:
+-- navbar.header:
+logo: $assets.files.images.logo.svg
+logoURL: /
+header-item1: Home
+header-item2: About
+header-item3: Tweets
+header-item4: Experience
+header-item5: Contact
+header-item1-link: /portfolio
+header-item2-link:/portfolio/about
+header-item3-link: / portfolio/tweets
+header-item4-link: /portfolio/experience
+header-item5-link: /portfolio/
+contact
+cta-item1: Resume
+cta-item1-link: https://drive.google.com/file/d/1N2aVi_Q60GbgndITMweuQDc8YdhRnblr/view?usp=drivesdk
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 
--- ds.h3: 🎯 Used by?
+cta-item2-link: -- ftd.row: 
+margin-top.px: 60
+spacing.fixed.px: 14
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.column:
+spacing.fixed.px: 20
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: I'm
+secondTitle: Sonali Singh,
 
--- ds.h2: Learn fastn and become a pro?
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: Frontend
+secondTitle: developer
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- lib.hero-ui-base-text-wrapper:firstTitle: Frontend
+secondTitle: developer
 
--- end: my-ds.page
+-- lib.hero-ui-base-text-wrapper:
+firstTitle: and
+secondTitle: designer.
+
+-- ftd.text: I design and create functional and beautiful applications with passion and a focus on user experience and high quality.
+role: $lib.home-description-responsive-typography
+margin-top.px: 10
+width.fixed.px: 700-- ftd.row:
+spacing.fixed.px: 10
+
+-- button.secondary: 
+title: Hire me
+link: mailto:aashi041c@gmail.com
+
+
+
+-- end: ftd.row-- ftd.container:
+margin-top.px: 10
+
+-- ftd.row:
+spacing.fixed.px: 10
+
+-- social.social-button-wrapphttps:
+link:https://www.linkedin.com/in/sonali-singh-96a050240
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link:https://twitter.com/Sonali_singh456/status/1659794017746386945?s=20
+image: $assets.files.images.twitter.png
+  
+-- social.social-button-wrapper:
+link: https://github.com/Sonali9737
+image: $assets.files.images.github.png
+  
+-- social.social-button-wrapper:
+link: https://instagram.com/_sonrisaaa_1?igshid=MzNlNGNkZWQ4Mg==
+image: $assets.files.images.instagram.png
+
+
+-- social.social-button-wrapper:
+link: mailto:aashi041c@gmail.com
+image: $assets.files.images.mail.png
+  
+-- end: ftd.row
+
+-- end: ftd.container
+
+-- end: ftd.column
+
+-- ftd.image: 
+src: $assets.files.images.dog.png
+
+-- end: ftd.row
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- ftd.column:
+margin-top.px: 120
+align-self: center
+align-content: center
+
+-- ftd.text: The full product development stack.
+role: $lib.hero-product-service-responsive-typography
+text-align: center
+
+-- ftd.text: From designing the interface to implementing your fully featured application - I can provide the full product design process from an idea to a finished hiqh quality app, polished with fantastic design and running on state of the art software.
+role: $lib.home-description-responsive-typography
+text-align: center
+margin-top.px: 10
+color: #53585e
+width.fixed.px: 900
+
+-- ftd.row: 
+spacing.fixed.px: 50
+margin-top.px: 50
+
+-- lib.hero-product-service-card-wrapper:
+imageURL: $assets.files.images.frontend-development-icon.svg
+title: Frontend Development
+description: I create functional, beautiful and responsive frontend applications for the web with modern technologies.
+bgColor: #0BC5EA
+
+-- lib.hero-product-service-card-wrapper:
+imageURL: $assets.files.images.backend-development-icon.svg
+title: Backend Development
+description: I build high-quality cloud-based backend services for your applications to scale and host all your users.
+bgColor: #ED8936
+
+-- end: ftd.row
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,8 +4,9 @@
 favicon: /-/sonali9737.github.io/portfolio/favicon.ico
 
 
--- fastn.dependency: fastn-community.github.io/doc-site as ds
+ --fastn.dependency: fastn-community.github.io/doc-site as ds
 -- fastn.dependency: fastn-community.github.io/footer
+-- fastn.dependency: sonali9737.github.io/ui-packages
 
 -- fastn.auto-import: ds
 -- fastn.auto-import: sonali9737.github.io/portfolio/FASTN/my-ds
